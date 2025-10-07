@@ -48,6 +48,7 @@ public class SecurityConfig {
                                 "/login",
                                 "/auth/**",
                                 "/h2-console/**",
+                                "/weather/**",
                                 "/**"
                         ).permitAll()
                         .requestMatchers("/me").authenticated()
