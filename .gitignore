@@ -32,3 +32,13 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Docker
+*.log
+*.tmp
+**/Dockerfile.old
+docker-compose.override.yml
+
+# Miljövariabler
+.env
+.env*
